@@ -1,0 +1,9 @@
+#ignore tout fichier CSV de données
+datas/*.csv
+datas/*/.idx*
+#ignore les modeles Keras
+modele/*.h5
+modele/*.json
+modele/*.mod
+#ignore les Jupyter Notebook checkpoints
+.ipynb_checkpoints/
